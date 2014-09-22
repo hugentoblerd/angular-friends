@@ -32,14 +32,14 @@
       <input class="form-control" placeholder="Search Your Friends' Name" ng-model='searchTerm.name' >
       <input class="form-control" placeholder="Search Your Friends' Location" ng-model='searchTerm.current_location' > 
   
-      <select class="input-medium">
-          <option>Name</option>
-          <option># friends</option>
-          <option>City</option>
-          <option>State</option>
-          <option>Country</option>
+      <select class="input-medium" ng-model='orderAttribute'>
+          <option value="name">Name</option>
+          <option value='friend_count'># friends</option>
+          <option value="current_locationcity">City</option>
+          <option value="current_location.state">State</option>
+          <option value="current_location.country">Country</option>
       </select>
-      <select class="input-medium">
+      <select class="input-medium" ng-model='orderReverse'>
           <option value="false">Descending</option>
           <option value="true">Ascending</option>
       </select>
@@ -47,7 +47,7 @@
   </form>
 
     <ul>
-      <li ng-repeat='person in friends | filter: searchTerm' class='friend'>
+      <li ng-repeat='person in friends | filter: searchTerm | orderBy: orderAttribute: orderReverse ' class='friend'>
          <img class="profile-pic" src='{{person.pic_square}}'>
         <h3>{{person.name}}</h3>
         <div class="location">

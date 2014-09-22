@@ -44,9 +44,9 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 
 
 ###Step 6: Make the list sortable
-* Create two variables in your friend controller, one for the attribute to sort on and another boolean for an ascending vs descending sort
-* Bind the variables to their respective select elements using ng-model
-* Add the ordering logic to your filter
+<!-- * Create two variables in your friend controller, one for the attribute to sort on and another boolean for an ascending vs descending sort -->
+<!-- * Bind the variables to their respective select elements using ng-model -->
+<!-- * Add the ordering logic to your filter -->
 
 ###Step 7: Black Diamond
 * Use ng-options and an array to create the filter options
