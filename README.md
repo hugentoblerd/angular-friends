@@ -22,8 +22,8 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 
 
 ###Step 3: Display friend information
-* Use ng-repeat to create a new li for each person in the person array
-* use {{variable.property}}  bindings to fill the user's picture and data into the li content
+<!-- * Use ng-repeat to create a new li for each person in the person array -->
+<!-- * use {{variable.property}}  bindings to fill the user's picture and data into the li content -->
 
 
 ## Day Two(Part Time) or Continue(Full Time)

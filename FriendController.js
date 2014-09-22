@@ -1,6 +1,7 @@
 var app = angular.module('ngFriends');
 
 app.controller('FriendController', function ($scope) {
+  $scope.test = 'test';
   $scope.friends = [
     {
         "name": "Preston McNeil",

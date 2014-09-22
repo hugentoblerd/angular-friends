@@ -47,17 +47,17 @@
   </form>
 
     <ul>
-      <li class='friend'>
-         <img class="profile-pic" src='https://scontent-a.xx.fbcdn.net/hprofile-ash3/833_10200838803828124_1233160321_a.jpg'>
-        <h3>Cali Fornia</h3>
+      <li ng-repeat='person in friends' class='friend'>
+         <img class="profile-pic" src='{{person.pic_square}}'>
+        <h3>{{person.name}}</h3>
         <div class="location">
-          Location: New Port Beach, California, United States
+          Location: {{person.current_location.city}}, {{person.current_location.state}}, {{person.current_location.country}}
         </div>      
         <div class="status">
-          Status: I hate the snow. I wish I was on the beach right now!!! <span class="hashtag">#ihateprovo</span>
+          Status: {{person.status.message}} <span class="hashtag"><!-- {{person.$$hashKey}} --></span>
         </div>      
         <div class="num-friends">
-          Friends: 1,367
+          Friends: {{person.friend_count}}
         </div>
       </li>
     </ul>
