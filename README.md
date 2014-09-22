@@ -16,9 +16,9 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 <!-- * Test your controller by adding a scope variable called 'test' with the value 'Hello World' and then bind the variable in index.html {{test}} to see if your controller is working -->
 
 ###Step 2: Load the friend Information
-In step two we will paste the fake data into our application
-* In the FriendController copy the data from friend-data.json into a scope variable called "friends" in your FriendController
-* Use the Chrome insepector to test that your data is correctly scoped and available to your view. Highlight a DOM element within your FriendController and paste "angular.element($0).scope().friends" and "angular.element($0).scope().friends.length" into your console to assure that your friends variable is working and that it is an array
+<!-- In step two we will paste the fake data into our application -->
+<!-- * In the FriendController copy the data from friend-data.json into a scope variable called "friends" in your FriendController -->
+<!-- * Use the Chrome insepector to test that your data is correctly scoped and available to your view. Highlight a DOM element within your FriendController and paste "angular.element($0).scope().friends" and "angular.element($0).scope().friends.length" into your console to assure that your friends variable is working and that it is an array -->
 
 
 ###Step 3: Display friend information
