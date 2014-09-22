@@ -29,11 +29,11 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 ## Day Two(Part Time) or Continue(Full Time)
 
 ###Step 4: Add a search filter on the friends
-Let's add a filter that will take a user inputted string and only display models that contain that string. 
-Note that the filter searches all attributes of the model recursively.
-* Add an attribute called searchTerm to your FriendController scope variable to store the value of a search term inputted by the user
-* Bind the searchTerm variable to the search input using ng-model
-* Add a filter to your ng-repeat attribute to filter on the search term
+<!-- Let's add a filter that will take a user inputted string and only display models that contain that string.  -->
+<!-- Note that the filter searches all attributes of the model recursively. -->
+<!-- * Add an attribute called searchTerm to your FriendController scope variable to store the value of a search term inputted by the user -->
+<!-- * Bind the searchTerm variable to the search input using ng-model -->
+<!-- * Add a filter to your ng-repeat attribute to filter on the search term -->
 
 ###Step 5: Split the filters into 2: name and location
 Let's make our search more specific. Our input from Step 4 will now search only the name.
