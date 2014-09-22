@@ -36,11 +36,11 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 <!-- * Add a filter to your ng-repeat attribute to filter on the search term -->
 
 ###Step 5: Split the filters into 2: name and location
-Let's make our search more specific. Our input from Step 4 will now search only the name.
-We will also create a location search input.
-* Refactor the search you implemented in Step 4 to only search on a friend's name 
-* Create a second input and searchTerm variable for a friend's location
-* Add the location specific filter 
+<!-- Let's make our search more specific. Our input from Step 4 will now search only the name. -->
+<!-- We will also create a location search input. -->
+<!-- * Refactor the search you implemented in Step 4 to only search on a friend's name  -->
+<!-- * Create a second input and searchTerm variable for a friend's location -->
+<!-- * Add the location specific filter  -->
 
 
 ###Step 6: Make the list sortable
